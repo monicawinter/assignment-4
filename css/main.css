@@ -2,6 +2,24 @@ html {
   background-color: #1e1052;
 }
 
+header {
+  background-color: #ccc;
+  padding: 1em 3em 0.5em 3em;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav li {
+  border: solid;
+  margin: 0;
+  padding: 0.5 0.5 0.5 0.5;
+  border-radius: 10px;
+  background-color: #000;
+  display: inline;
+  text-align: center;
+}
+
 h1,h2 {
   font-weight: bold;
   font-size: 3rem;
@@ -17,12 +35,8 @@ ol {
   padding: 0;
   font-size: 1.25rem;
   font-family: Arial, sans-serif;
-  text-align: left;
+  text-align: center;
   color: #fff;
-}
-
-.intro {
-  color: yellow;
 }
 
 a {
@@ -61,6 +75,17 @@ blockquote {
   text-align: right;
 }
 
+figure {
+  text-align: center;
+  border: solid;
+  border-radius: 10px;
+  padding: 0.5 0.5 0.5 0.5;
+}
+
+img {
+  width: 100%;
+}
+
 figcaption {
   font-weight: normal;
   font-size: 1.25rem;
@@ -87,4 +112,12 @@ dd {
   font-family: Arial, sans-serif;
   text-align: left;
   color: #ccc;
+}
+
+.sources {
+  background-color: #ccc;
+  padding: 1em 3em 0.5em 3em;
+  margin: 0;
+  text-align: left;
+  text-decoration: none;
 }
