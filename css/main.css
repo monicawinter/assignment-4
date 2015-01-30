@@ -97,6 +97,7 @@ figure {
   border: solid;
   border-radius: 10px;
   padding: 1em 1em 1em 1em;
+  margin: 0;
 }
 
 img {
@@ -129,6 +130,7 @@ dd {
   font-family: Arial, sans-serif;
   text-align: left;
   color: #ccc;
+  margin: 0;
 }
 
 .sources {
@@ -141,4 +143,9 @@ dd {
 
 footer {
   margin: 1em;
+}
+
+.bullet {
+  list-style-type: circle;
+  margin: 0;
 }
