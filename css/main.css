@@ -1,0 +1,90 @@
+html {
+  background-color: #1e1052;
+}
+
+h1,h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  text-decoration: underline;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  color: #fff;
+}
+
+ol {
+  list-style-type: none;
+  line-height: 1.5;
+  padding: 0;
+  font-size: 1.25rem;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  color: #fff;
+}
+
+.intro {
+  color: yellow;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: yellow
+}
+
+p {
+  font-weight: normal;
+  font-size: 1rem;
+  font-style: normal;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  text-align: left;
+  color: #fff;
+}
+
+em {
+  color: yellow;
+  font-style: italic;
+}
+
+blockquote {
+  font-weight: normal;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #ccc;
+}
+
+.cite {
+  text-align: right;
+}
+
+figcaption {
+  font-weight: normal;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  color: #ccc;
+}
+
+dl {
+  list-style-type: none;
+  line-height: 1.5;
+  padding: 0;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  color: #fff;
+}
+
+dd {
+  font-weight: normal;
+  font-size: 1rem;
+  font-style: italic;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  color: #ccc;
+}
