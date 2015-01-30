@@ -2,9 +2,13 @@ html {
   background-color: #1e1052;
 }
 
+body {
+  margin: 0;
+}
+
 header {
   background-color: #ccc;
-  padding: 1em 3em 0.5em 3em;
+  padding: 1em 3em 0.5em 2em;
   margin: 0;
   text-align: center;
   text-decoration: none;
@@ -20,7 +24,11 @@ nav li {
   text-align: center;
 }
 
-h1,h2 {
+main{
+  margin: 1em;
+}
+
+h1 {
   font-weight: bold;
   font-size: 3rem;
   text-decoration: underline;
@@ -29,14 +37,23 @@ h1,h2 {
   color: #fff;
 }
 
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  text-decoration: underline;
+  font-family: 'Righteous', cursive;
+  text-align: left;
+  color: #fff;
+}
+
 ol {
-  list-style-type: none;
+  list-style-type: lower-roman;
   line-height: 1.5;
-  padding: 0;
+  padding: 0em 0em 0em 2em;
   font-size: 1.25rem;
   font-family: Arial, sans-serif;
-  text-align: center;
   color: #fff;
+  margin: 2em;
 }
 
 a {
@@ -79,7 +96,7 @@ figure {
   text-align: center;
   border: solid;
   border-radius: 10px;
-  padding: 0.5 0.5 0.5 0.5;
+  padding: 1em 1em 1em 1em;
 }
 
 img {
@@ -120,4 +137,8 @@ dd {
   margin: 0;
   text-align: left;
   text-decoration: none;
+}
+
+footer {
+  margin: 1em;
 }
